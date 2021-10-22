@@ -11,5 +11,6 @@ while 1:
   for event in device.read_loop():
     buttonEvent = rt_btn.ButtonEvent(event)
     if buttonEvent.name ==  rt_btn.ButtonName.O:
+    #if buttonEvent.name ==  rt_btn.ButtonName.F1:
       os.system("sudo shutdown -h now")
 
