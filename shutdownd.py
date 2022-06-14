@@ -15,7 +15,7 @@ while 1:
     #if buttonEvent.name ==  rt_btn.ButtonName.F1:
       os.system("sudo shutdown -h now")
     elif buttonEvent.name ==  rt_btn.ButtonName.F1:
-      os.system("/home/pi/Documents/arduino-1.8.19/arduino")
+      os.system("DISPLAY=:0 /home/pi/Documents/arduino-1.8.19/arduino")
     # lightSense = rt.illuminance
     # if lightSense != 0:
       
